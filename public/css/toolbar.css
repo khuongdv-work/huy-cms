@@ -1,0 +1,41 @@
+#toolbar{
+    bottom: 0;
+    z-index: 500;
+    padding: 10px;
+    position: fixed;
+    border-top: 1px solid #ebebeb;
+    width: 100%;
+    background: #fff;
+    display: none;
+}
+#toolbar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#toolbar ul li{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+#toolbar ul li a{
+    color: #000;
+    font-size: 12px;
+}
+#toolbar ul li a:hover{
+    text-decoration: none;
+}
+#toolbar ul li a img{
+    height: 30px;
+}
+@media screen and (max-width: 768px) and (min-width: 200px){
+    #toolbar{
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 320px) and (min-width: 200px){
+    #toolbar ul li a{
+        font-size: 11px;
+    }
+}

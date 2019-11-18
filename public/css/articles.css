@@ -1,0 +1,96 @@
+#breadcrumbs{
+    background: url('../images/bg2.jpg') no-repeat fixed;
+    position: relative;
+    padding: 54px 0 27px;
+    margin: 0 0 73px;
+    color: #222222;
+    background-size: cover;
+}
+#breadcrumbs nav{}
+#breadcrumbs nav .breadcrumb{
+    background-color: transparent;
+}
+#breadcrumbs nav .breadcrumb .breadcrumb-item{}
+#breadcrumbs nav .breadcrumb .breadcrumb-item+.breadcrumb-item::before{
+    color: white;
+}
+#breadcrumbs nav .breadcrumb .breadcrumb-item a{
+    color: white;
+}
+
+#breadcrumbs nav .breadcrumb .breadcrumb-item.active{
+    color: white;
+}
+
+
+#articles{
+}
+.article-content{
+    padding: 20px;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+}
+.article-content .post-author{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.article-content .post-author .avatar{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.article-content .post-author .author .name{
+    color: black;
+}
+.article-content .post-author .author > p.name{
+    margin-bottom: 0;
+}
+.article-content .post-author .author p.created-at{
+    font-size: 13px;
+}
+
+
+.article-content .page-title{
+    font-size: 2rem;
+    padding: 0;
+    margin-bottom: 10px;
+}
+.article-content .page-description{}
+.article-content .page-content{
+    overflow: hidden;
+}
+.article-content .page-content img{
+    max-width: 100%;
+ }
+
+/** widget-box  **/
+.widget-sidebar{
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 2rem;
+}
+.widget-sidebar .widget-title{
+    font-size: 22px;
+    text-align: center;
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.widget-sidebar .widget-content{}
+
+.widget-form > .widget-content .btn-100{
+    display: block;
+    width: 100%;
+}
+
+.widget-google{
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+label.error{
+    color: #e46c6c;
+    margin: 0;
+}

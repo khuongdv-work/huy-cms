@@ -11,9 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'Website\HomeController@index')->name('website.home.index');
+Route::post('/post-contact', 'Website\HomeController@createNewContact')->name('website.postContact');
+Route::get('/pages/{slug}', 'Website\HomeController@page')->name('website.page');
 
 
 Route::group(['prefix' => 'admin'], function () {

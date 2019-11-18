@@ -1,0 +1,23 @@
+.carousel-item {
+    max-height: 500px !important;
+}
+
+.carousel-item .slider-title{
+    font-size: 25px !important;
+    color: red;
+}
+.carousel-item .slider-caption{
+    font-size: 20px !important;
+    color: blue;
+}
+
+@media only screen and (max-width: 640px) {
+    .carousel-item .slider-title{
+        font-size: 18px !important;
+        color: red;
+    }
+    .carousel-item .slider-caption{
+        font-size: 13px !important;
+        color: blue;
+    }
+}

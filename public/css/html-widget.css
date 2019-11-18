@@ -1,0 +1,9 @@
+#html-box{
+    background-color: white;
+    padding: 20px 0;
+}
+
+#html-box .title h5 {
+    font-size: 25px;
+    text-align: center;
+}
